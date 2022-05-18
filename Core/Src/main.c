@@ -23,6 +23,7 @@
 #include "tim.h"
 #include "usart.h"
 #include "DHT11.h"
+#include "oled.h"
 #include "delay.h"
 #include "gpio.h"
 
@@ -48,8 +49,8 @@
 /* ??????	*/
 #define START_STK_SIZE 		64
 #define LED0_STK_SIZE 		80
-#define OLED_TASK_SIZE 		64
-#define MSG_STK_SIZE 		  80 //??????????,????????
+#define OLED_TASK_SIZE 		96
+#define MSG_STK_SIZE 		  96 //??????????,????????
 
 /* ??? */	
 CPU_STK START_TASK_STK[START_STK_SIZE];
@@ -275,19 +276,19 @@ void start_task(void *p_arg)
                  (OS_OPT      )OS_OPT_TMR_PERIODIC,
                  (OS_ERR 	* )&err);				
 	
-//	OSTaskCreate((OS_TCB 	* )&OLEDTASKTCB,		
-//				 (CPU_CHAR	* )"oled_task", 		
-//                 (OS_TASK_PTR )oled_task, 			
-//                 (void		* )0,					
-//                 (OS_PRIO	  )OLED_TASK_PRIO,     
-//                 (CPU_STK   * )&OLED_TASK_STK[0],	
-//                 (CPU_STK_SIZE)OLED_TASK_SIZE/10,	
-//                 (CPU_STK_SIZE)OLED_TASK_SIZE,		
-//                 (OS_MSG_QTY  )0,					
-//                 (OS_TICK	  )0,					
-//                 (void   	* )0,					
-//                 (OS_OPT      )OS_OPT_TASK_STK_CHK|OS_OPT_TASK_STK_CLR,
-//                 (OS_ERR 	* )&err);		
+	OSTaskCreate((OS_TCB 	* )&OLEDTASKTCB,		
+				 (CPU_CHAR	* )"oled_task", 		
+                 (OS_TASK_PTR )oled_task, 			
+                 (void		* )0,					
+                 (OS_PRIO	  )OLED_TASK_PRIO,     
+                 (CPU_STK   * )&OLED_TASK_STK[0],	
+                 (CPU_STK_SIZE)OLED_TASK_SIZE/10,	
+                 (CPU_STK_SIZE)OLED_TASK_SIZE,		
+                 (OS_MSG_QTY  )0,					
+                 (OS_TICK	  )0,					
+                 (void   	* )0,					
+                 (OS_OPT      )OS_OPT_TMR_PERIODIC,
+                 (OS_ERR 	* )&err);		
 	/* ??LED1?? */
 	OSTaskCreate((OS_TCB 	* )&MsgTaskTCB,		
 				 (CPU_CHAR	* )"send_msg", 		
@@ -347,17 +348,17 @@ static  void  led_pc0 (void *p_arg)
 static  void  oled_task (void *p_arg)
 {
   OS_ERR      err;
-	CPU_SR_ALLOC();
   (void)p_arg;
   BSP_Init();                                                 /* Initialize BSP functions                             */
   CPU_Init();
   Mem_Init();                                                 /* Initialize Memory Management Module                  */
-	MX_GPIO_Init();
 	MX_I2C1_Init();
-	OSTimeDlyHMSM(0, 0, 0, 100,OS_OPT_TIME_HMSM_STRICT,&err);
+	OSTimeDly(100,OS_OPT_TIME_DLY,&err);
 	OLED0561_Init();
 	OLED_DISPLAY_CLEAR();
-
+	OLED_DISPLAY_8x16_BUFFER(0,"Hello sipalaki");
+	OLED_DISPLAY_8x16_BUFFER(2,"Humi:  %");
+	OLED_DISPLAY_8x16_BUFFER(4,"Temp:  C");
 	
 #if OS_CFG_STAT_TASK_EN > 0u
   OSStatTaskCPUUsageInit(&err);                               /* Compute CPU capacity with no task running            */
@@ -367,10 +368,11 @@ static  void  oled_task (void *p_arg)
   AppObjCreate();                                             /* Create Application Objects                           */
 	while (DEF_TRUE)
   {	
-		CPU_CRITICAL_ENTER();
-		CPU_CRITICAL_EXIT();
-		OSTimeDlyHMSM(0, 0, 0, 1000,OS_OPT_TIME_HMSM_STRICT,&err);
+			OSTimeDly(5000,OS_OPT_TIME_DLY,&err);
+			printf("OLED OK");
+//		OSIntEnter();	
 //		OLED_DISPLAY_8x16_BUFFER(0,"Hello World");
+//		OSIntExit();
 //		HAL_GPIO_WritePin(GPIOB,GPIO_PIN_1,GPIO_PIN_SET);
 //		OSTimeDlyHMSM(0, 0, 0, 500,OS_OPT_TIME_HMSM_STRICT,&err);
 //		HAL_GPIO_WritePin(GPIOB,GPIO_PIN_1,GPIO_PIN_RESET);
@@ -388,7 +390,6 @@ static  void  send_msg (void *p_arg)
 {
   OS_ERR      err;
 	uint8_t b[2] = {0,0};
-	uint8_t rt=0;
 	uint8_t re = 0;
   (void)p_arg;
   BSP_Init();                                                 /* Initialize BSP functions                             */
@@ -425,10 +426,10 @@ static  void  send_msg (void *p_arg)
 //			OSMutexPend(&mutex_oled,0,OS_OPT_PEND_BLOCKING,NULL,&err);	//????oled???
 			printf("h:%d\r\n t:%d\r\n",b[0],b[1]);
 			
-//			OLED_DISPLAY_8x16(0,0,(temp/10)+'0');
-//			OLED_DISPLAY_8x16(0,8,(temp%10)+'0');
-//			OLED_DISPLAY_8x16(2,0,(humi/10)+'0');
-//			OLED_DISPLAY_8x16(2,8,(humi%10)+'0');
+			OLED_DISPLAY_8x16(2,40,(b[0]/10)+'0');
+			OLED_DISPLAY_8x16(2,48,(b[0]%10)+'0');
+			OLED_DISPLAY_8x16(4,40,(b[1]/10)+'0');
+			OLED_DISPLAY_8x16(4,48,(b[1]%10)+'0');
 
 
 						//??oled???
