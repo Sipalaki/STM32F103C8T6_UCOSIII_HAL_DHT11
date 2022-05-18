@@ -1,0 +1,1310 @@
+Dependencies for Project 'QC_TEST', Target 'QC_TEST': (DO NOT MODIFY !)
+F (startup_stm32f103xb.s)(0x62845697)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include--list startup_stm32f103xb.lst --xref -o qc_test\startup_stm32f103xb.o --depend qc_test\startup_stm32f103xb.d)
+F (../Core/Src/main.c)(0x62845726)(-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I./uC-BSP -I./uC-CONFIG -I./uC-CPU -I./uC-CPU/ARM-Cortex-M3/RealView -I./uC-LIB -I./uC-LIB/Ports/ARM-Cortex-M3/RealView -I./uCOS-III/Source -I./uCOS-III/Ports/ARM-Cortex-M3/Generic/RealView --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include-DUSE_HAL_DRIVER -DSTM32F103xB -o qc_test\main.o --omf_browse qc_test\main.crf --depend qc_test\main.d)
+I (C:\Users\sipalaki\Desktop\QC\Core\Inc\main.h)(0x62845690)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Core\Inc\stm32f1xx_hal_conf.h)(0x6284568F)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\core_cm3.h)(0x627C792C)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\cmsis_version.h)(0x627C792C)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\cmsis_compiler.h)(0x627C792C)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\cmsis_armcc.h)(0x627C792C)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x627C795A)
+I (C:\Keil\ARM\ARMCC\include\stddef.h)(0x51C7B744)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_i2c.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x627C795A)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7B744)
+I (C:\Users\sipalaki\Desktop\QC\Core\Inc\i2c.h)(0x6282066F)
+I (C:\Users\sipalaki\Desktop\QC\Core\Inc\rtc.h)(0x627CB1BF)
+I (C:\Users\sipalaki\Desktop\QC\Core\Inc\usart.h)(0x627CB1BF)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-BSP\DHT11.h)(0x628454ED)
+I (C:\Users\sipalaki\Desktop\QC\Core\Inc\gpio.h)(0x627CB1BE)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-BSP\oled.h)(0x62822CE3)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-BSP\delay.h)(0x62835863)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CONFIG\includes.h)(0x627CC340)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7B744)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7B744)
+I (C:\Keil\ARM\ARMCC\include\math.h)(0x51C7B744)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CPU\ARM-Cortex-M3\RealView\cpu.h)(0x5011F816)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CPU\cpu_def.h)(0x5004B158)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CONFIG\cpu_cfg.h)(0x5032F3B0)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_def.h)(0x50CEC38A)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_ascii.h)(0x50CEB6E6)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_math.h)(0x50CEB6E6)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CPU\cpu_core.h)(0x5068E2FC)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_mem.h)(0x50CEB6E6)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CONFIG\lib_cfg.h)(0x6281AC27)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_str.h)(0x50CEB6DC)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-BSP\bsp.h)(0x627CE46E)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CONFIG\app_cfg.h)(0x6282FD5C)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uCOS-III\Source\os.h)(0x50FFA894)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CONFIG\os_cfg.h)(0x628243B2)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uCOS-III\Source\os_type.h)(0x50FFA894)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView\os_cpu.h)(0x4FFE6960)
+F (../Core/Src/gpio.c)(0x6284568C)(-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I./uC-BSP -I./uC-CONFIG -I./uC-CPU -I./uC-CPU/ARM-Cortex-M3/RealView -I./uC-LIB -I./uC-LIB/Ports/ARM-Cortex-M3/RealView -I./uCOS-III/Source -I./uCOS-III/Ports/ARM-Cortex-M3/Generic/RealView --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include-DUSE_HAL_DRIVER -DSTM32F103xB -o qc_test\gpio.o --omf_browse qc_test\gpio.crf --depend qc_test\gpio.d)
+I (C:\Users\sipalaki\Desktop\QC\Core\Inc\gpio.h)(0x627CB1BE)
+I (C:\Users\sipalaki\Desktop\QC\Core\Inc\main.h)(0x62845690)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Core\Inc\stm32f1xx_hal_conf.h)(0x6284568F)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\core_cm3.h)(0x627C792C)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\cmsis_version.h)(0x627C792C)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\cmsis_compiler.h)(0x627C792C)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\cmsis_armcc.h)(0x627C792C)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x627C795A)
+I (C:\Keil\ARM\ARMCC\include\stddef.h)(0x51C7B744)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_i2c.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x627C795A)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7B744)
+F (../Core/Src/i2c.c)(0x6284568D)(-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I./uC-BSP -I./uC-CONFIG -I./uC-CPU -I./uC-CPU/ARM-Cortex-M3/RealView -I./uC-LIB -I./uC-LIB/Ports/ARM-Cortex-M3/RealView -I./uCOS-III/Source -I./uCOS-III/Ports/ARM-Cortex-M3/Generic/RealView --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include-DUSE_HAL_DRIVER -DSTM32F103xB -o qc_test\i2c.o --omf_browse qc_test\i2c.crf --depend qc_test\i2c.d)
+I (C:\Users\sipalaki\Desktop\QC\Core\Inc\i2c.h)(0x6282066F)
+I (C:\Users\sipalaki\Desktop\QC\Core\Inc\main.h)(0x62845690)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Core\Inc\stm32f1xx_hal_conf.h)(0x6284568F)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\core_cm3.h)(0x627C792C)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\cmsis_version.h)(0x627C792C)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\cmsis_compiler.h)(0x627C792C)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\cmsis_armcc.h)(0x627C792C)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x627C795A)
+I (C:\Keil\ARM\ARMCC\include\stddef.h)(0x51C7B744)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_i2c.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x627C795A)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7B744)
+F (../Core/Src/rtc.c)(0x627CB1BF)(-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I./uC-BSP -I./uC-CONFIG -I./uC-CPU -I./uC-CPU/ARM-Cortex-M3/RealView -I./uC-LIB -I./uC-LIB/Ports/ARM-Cortex-M3/RealView -I./uCOS-III/Source -I./uCOS-III/Ports/ARM-Cortex-M3/Generic/RealView --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include-DUSE_HAL_DRIVER -DSTM32F103xB -o qc_test\rtc.o --omf_browse qc_test\rtc.crf --depend qc_test\rtc.d)
+I (C:\Users\sipalaki\Desktop\QC\Core\Inc\rtc.h)(0x627CB1BF)
+I (C:\Users\sipalaki\Desktop\QC\Core\Inc\main.h)(0x62845690)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Core\Inc\stm32f1xx_hal_conf.h)(0x6284568F)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\core_cm3.h)(0x627C792C)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\cmsis_version.h)(0x627C792C)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\cmsis_compiler.h)(0x627C792C)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\cmsis_armcc.h)(0x627C792C)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x627C795A)
+I (C:\Keil\ARM\ARMCC\include\stddef.h)(0x51C7B744)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_i2c.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x627C795A)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7B744)
+F (../Core/Src/tim.c)(0x6284568D)(-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I./uC-BSP -I./uC-CONFIG -I./uC-CPU -I./uC-CPU/ARM-Cortex-M3/RealView -I./uC-LIB -I./uC-LIB/Ports/ARM-Cortex-M3/RealView -I./uCOS-III/Source -I./uCOS-III/Ports/ARM-Cortex-M3/Generic/RealView --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include-DUSE_HAL_DRIVER -DSTM32F103xB -o qc_test\tim.o --omf_browse qc_test\tim.crf --depend qc_test\tim.d)
+F (../Core/Src/usart.c)(0x6284568E)(-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I./uC-BSP -I./uC-CONFIG -I./uC-CPU -I./uC-CPU/ARM-Cortex-M3/RealView -I./uC-LIB -I./uC-LIB/Ports/ARM-Cortex-M3/RealView -I./uCOS-III/Source -I./uCOS-III/Ports/ARM-Cortex-M3/Generic/RealView --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include-DUSE_HAL_DRIVER -DSTM32F103xB -o qc_test\usart.o --omf_browse qc_test\usart.crf --depend qc_test\usart.d)
+I (C:\Users\sipalaki\Desktop\QC\Core\Inc\usart.h)(0x627CB1BF)
+I (C:\Users\sipalaki\Desktop\QC\Core\Inc\main.h)(0x62845690)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Core\Inc\stm32f1xx_hal_conf.h)(0x6284568F)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\core_cm3.h)(0x627C792C)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\cmsis_version.h)(0x627C792C)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\cmsis_compiler.h)(0x627C792C)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\cmsis_armcc.h)(0x627C792C)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x627C795A)
+I (C:\Keil\ARM\ARMCC\include\stddef.h)(0x51C7B744)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_i2c.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x627C795A)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7B744)
+F (../Core/Src/stm32f1xx_it.c)(0x627C7969)(-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I./uC-BSP -I./uC-CONFIG -I./uC-CPU -I./uC-CPU/ARM-Cortex-M3/RealView -I./uC-LIB -I./uC-LIB/Ports/ARM-Cortex-M3/RealView -I./uCOS-III/Source -I./uCOS-III/Ports/ARM-Cortex-M3/Generic/RealView --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include-DUSE_HAL_DRIVER -DSTM32F103xB -o qc_test\stm32f1xx_it.o --omf_browse qc_test\stm32f1xx_it.crf --depend qc_test\stm32f1xx_it.d)
+I (C:\Users\sipalaki\Desktop\QC\Core\Inc\main.h)(0x62845690)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Core\Inc\stm32f1xx_hal_conf.h)(0x6284568F)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\core_cm3.h)(0x627C792C)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\cmsis_version.h)(0x627C792C)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\cmsis_compiler.h)(0x627C792C)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\cmsis_armcc.h)(0x627C792C)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x627C795A)
+I (C:\Keil\ARM\ARMCC\include\stddef.h)(0x51C7B744)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_i2c.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x627C795A)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7B744)
+I (C:\Users\sipalaki\Desktop\QC\Core\Inc\stm32f1xx_it.h)(0x627C7969)
+F (../Core/Src/stm32f1xx_hal_msp.c)(0x627CB1BF)(-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I./uC-BSP -I./uC-CONFIG -I./uC-CPU -I./uC-CPU/ARM-Cortex-M3/RealView -I./uC-LIB -I./uC-LIB/Ports/ARM-Cortex-M3/RealView -I./uCOS-III/Source -I./uCOS-III/Ports/ARM-Cortex-M3/Generic/RealView --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include-DUSE_HAL_DRIVER -DSTM32F103xB -o qc_test\stm32f1xx_hal_msp.o --omf_browse qc_test\stm32f1xx_hal_msp.crf --depend qc_test\stm32f1xx_hal_msp.d)
+I (C:\Users\sipalaki\Desktop\QC\Core\Inc\main.h)(0x62845690)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Core\Inc\stm32f1xx_hal_conf.h)(0x6284568F)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\core_cm3.h)(0x627C792C)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\cmsis_version.h)(0x627C792C)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\cmsis_compiler.h)(0x627C792C)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\cmsis_armcc.h)(0x627C792C)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x627C795A)
+I (C:\Keil\ARM\ARMCC\include\stddef.h)(0x51C7B744)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_i2c.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x627C795A)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7B744)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c)(0x627C795A)(-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I./uC-BSP -I./uC-CONFIG -I./uC-CPU -I./uC-CPU/ARM-Cortex-M3/RealView -I./uC-LIB -I./uC-LIB/Ports/ARM-Cortex-M3/RealView -I./uCOS-III/Source -I./uCOS-III/Ports/ARM-Cortex-M3/Generic/RealView --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include-DUSE_HAL_DRIVER -DSTM32F103xB -o qc_test\stm32f1xx_hal_gpio_ex.o --omf_browse qc_test\stm32f1xx_hal_gpio_ex.crf --depend qc_test\stm32f1xx_hal_gpio_ex.d)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Core\Inc\stm32f1xx_hal_conf.h)(0x6284568F)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\core_cm3.h)(0x627C792C)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\cmsis_version.h)(0x627C792C)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\cmsis_compiler.h)(0x627C792C)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\cmsis_armcc.h)(0x627C792C)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x627C795A)
+I (C:\Keil\ARM\ARMCC\include\stddef.h)(0x51C7B744)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_i2c.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x627C795A)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c)(0x627C795A)(-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I./uC-BSP -I./uC-CONFIG -I./uC-CPU -I./uC-CPU/ARM-Cortex-M3/RealView -I./uC-LIB -I./uC-LIB/Ports/ARM-Cortex-M3/RealView -I./uCOS-III/Source -I./uCOS-III/Ports/ARM-Cortex-M3/Generic/RealView --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include-DUSE_HAL_DRIVER -DSTM32F103xB -o qc_test\stm32f1xx_hal_i2c.o --omf_browse qc_test\stm32f1xx_hal_i2c.crf --depend qc_test\stm32f1xx_hal_i2c.d)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Core\Inc\stm32f1xx_hal_conf.h)(0x6284568F)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\core_cm3.h)(0x627C792C)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\cmsis_version.h)(0x627C792C)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\cmsis_compiler.h)(0x627C792C)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\cmsis_armcc.h)(0x627C792C)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x627C795A)
+I (C:\Keil\ARM\ARMCC\include\stddef.h)(0x51C7B744)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_i2c.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x627C795A)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c)(0x627C795A)(-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I./uC-BSP -I./uC-CONFIG -I./uC-CPU -I./uC-CPU/ARM-Cortex-M3/RealView -I./uC-LIB -I./uC-LIB/Ports/ARM-Cortex-M3/RealView -I./uCOS-III/Source -I./uCOS-III/Ports/ARM-Cortex-M3/Generic/RealView --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include-DUSE_HAL_DRIVER -DSTM32F103xB -o qc_test\stm32f1xx_hal.o --omf_browse qc_test\stm32f1xx_hal.crf --depend qc_test\stm32f1xx_hal.d)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Core\Inc\stm32f1xx_hal_conf.h)(0x6284568F)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\core_cm3.h)(0x627C792C)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\cmsis_version.h)(0x627C792C)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\cmsis_compiler.h)(0x627C792C)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\cmsis_armcc.h)(0x627C792C)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x627C795A)
+I (C:\Keil\ARM\ARMCC\include\stddef.h)(0x51C7B744)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_i2c.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x627C795A)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c)(0x627C795A)(-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I./uC-BSP -I./uC-CONFIG -I./uC-CPU -I./uC-CPU/ARM-Cortex-M3/RealView -I./uC-LIB -I./uC-LIB/Ports/ARM-Cortex-M3/RealView -I./uCOS-III/Source -I./uCOS-III/Ports/ARM-Cortex-M3/Generic/RealView --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include-DUSE_HAL_DRIVER -DSTM32F103xB -o qc_test\stm32f1xx_hal_rcc.o --omf_browse qc_test\stm32f1xx_hal_rcc.crf --depend qc_test\stm32f1xx_hal_rcc.d)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Core\Inc\stm32f1xx_hal_conf.h)(0x6284568F)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\core_cm3.h)(0x627C792C)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\cmsis_version.h)(0x627C792C)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\cmsis_compiler.h)(0x627C792C)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\cmsis_armcc.h)(0x627C792C)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x627C795A)
+I (C:\Keil\ARM\ARMCC\include\stddef.h)(0x51C7B744)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_i2c.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x627C795A)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c)(0x627C795A)(-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I./uC-BSP -I./uC-CONFIG -I./uC-CPU -I./uC-CPU/ARM-Cortex-M3/RealView -I./uC-LIB -I./uC-LIB/Ports/ARM-Cortex-M3/RealView -I./uCOS-III/Source -I./uCOS-III/Ports/ARM-Cortex-M3/Generic/RealView --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include-DUSE_HAL_DRIVER -DSTM32F103xB -o qc_test\stm32f1xx_hal_rcc_ex.o --omf_browse qc_test\stm32f1xx_hal_rcc_ex.crf --depend qc_test\stm32f1xx_hal_rcc_ex.d)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Core\Inc\stm32f1xx_hal_conf.h)(0x6284568F)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\core_cm3.h)(0x627C792C)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\cmsis_version.h)(0x627C792C)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\cmsis_compiler.h)(0x627C792C)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\cmsis_armcc.h)(0x627C792C)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x627C795A)
+I (C:\Keil\ARM\ARMCC\include\stddef.h)(0x51C7B744)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_i2c.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x627C795A)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c)(0x627C795A)(-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I./uC-BSP -I./uC-CONFIG -I./uC-CPU -I./uC-CPU/ARM-Cortex-M3/RealView -I./uC-LIB -I./uC-LIB/Ports/ARM-Cortex-M3/RealView -I./uCOS-III/Source -I./uCOS-III/Ports/ARM-Cortex-M3/Generic/RealView --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include-DUSE_HAL_DRIVER -DSTM32F103xB -o qc_test\stm32f1xx_hal_gpio.o --omf_browse qc_test\stm32f1xx_hal_gpio.crf --depend qc_test\stm32f1xx_hal_gpio.d)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Core\Inc\stm32f1xx_hal_conf.h)(0x6284568F)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\core_cm3.h)(0x627C792C)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\cmsis_version.h)(0x627C792C)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\cmsis_compiler.h)(0x627C792C)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\cmsis_armcc.h)(0x627C792C)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x627C795A)
+I (C:\Keil\ARM\ARMCC\include\stddef.h)(0x51C7B744)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_i2c.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x627C795A)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c)(0x627C795A)(-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I./uC-BSP -I./uC-CONFIG -I./uC-CPU -I./uC-CPU/ARM-Cortex-M3/RealView -I./uC-LIB -I./uC-LIB/Ports/ARM-Cortex-M3/RealView -I./uCOS-III/Source -I./uCOS-III/Ports/ARM-Cortex-M3/Generic/RealView --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include-DUSE_HAL_DRIVER -DSTM32F103xB -o qc_test\stm32f1xx_hal_dma.o --omf_browse qc_test\stm32f1xx_hal_dma.crf --depend qc_test\stm32f1xx_hal_dma.d)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Core\Inc\stm32f1xx_hal_conf.h)(0x6284568F)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\core_cm3.h)(0x627C792C)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\cmsis_version.h)(0x627C792C)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\cmsis_compiler.h)(0x627C792C)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\cmsis_armcc.h)(0x627C792C)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x627C795A)
+I (C:\Keil\ARM\ARMCC\include\stddef.h)(0x51C7B744)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_i2c.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x627C795A)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c)(0x627C795A)(-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I./uC-BSP -I./uC-CONFIG -I./uC-CPU -I./uC-CPU/ARM-Cortex-M3/RealView -I./uC-LIB -I./uC-LIB/Ports/ARM-Cortex-M3/RealView -I./uCOS-III/Source -I./uCOS-III/Ports/ARM-Cortex-M3/Generic/RealView --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include-DUSE_HAL_DRIVER -DSTM32F103xB -o qc_test\stm32f1xx_hal_cortex.o --omf_browse qc_test\stm32f1xx_hal_cortex.crf --depend qc_test\stm32f1xx_hal_cortex.d)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Core\Inc\stm32f1xx_hal_conf.h)(0x6284568F)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\core_cm3.h)(0x627C792C)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\cmsis_version.h)(0x627C792C)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\cmsis_compiler.h)(0x627C792C)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\cmsis_armcc.h)(0x627C792C)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x627C795A)
+I (C:\Keil\ARM\ARMCC\include\stddef.h)(0x51C7B744)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_i2c.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x627C795A)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c)(0x627C795A)(-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I./uC-BSP -I./uC-CONFIG -I./uC-CPU -I./uC-CPU/ARM-Cortex-M3/RealView -I./uC-LIB -I./uC-LIB/Ports/ARM-Cortex-M3/RealView -I./uCOS-III/Source -I./uCOS-III/Ports/ARM-Cortex-M3/Generic/RealView --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include-DUSE_HAL_DRIVER -DSTM32F103xB -o qc_test\stm32f1xx_hal_pwr.o --omf_browse qc_test\stm32f1xx_hal_pwr.crf --depend qc_test\stm32f1xx_hal_pwr.d)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Core\Inc\stm32f1xx_hal_conf.h)(0x6284568F)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\core_cm3.h)(0x627C792C)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\cmsis_version.h)(0x627C792C)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\cmsis_compiler.h)(0x627C792C)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\cmsis_armcc.h)(0x627C792C)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x627C795A)
+I (C:\Keil\ARM\ARMCC\include\stddef.h)(0x51C7B744)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_i2c.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x627C795A)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c)(0x627C795A)(-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I./uC-BSP -I./uC-CONFIG -I./uC-CPU -I./uC-CPU/ARM-Cortex-M3/RealView -I./uC-LIB -I./uC-LIB/Ports/ARM-Cortex-M3/RealView -I./uCOS-III/Source -I./uCOS-III/Ports/ARM-Cortex-M3/Generic/RealView --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include-DUSE_HAL_DRIVER -DSTM32F103xB -o qc_test\stm32f1xx_hal_flash.o --omf_browse qc_test\stm32f1xx_hal_flash.crf --depend qc_test\stm32f1xx_hal_flash.d)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Core\Inc\stm32f1xx_hal_conf.h)(0x6284568F)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\core_cm3.h)(0x627C792C)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\cmsis_version.h)(0x627C792C)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\cmsis_compiler.h)(0x627C792C)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\cmsis_armcc.h)(0x627C792C)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x627C795A)
+I (C:\Keil\ARM\ARMCC\include\stddef.h)(0x51C7B744)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_i2c.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x627C795A)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c)(0x627C795A)(-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I./uC-BSP -I./uC-CONFIG -I./uC-CPU -I./uC-CPU/ARM-Cortex-M3/RealView -I./uC-LIB -I./uC-LIB/Ports/ARM-Cortex-M3/RealView -I./uCOS-III/Source -I./uCOS-III/Ports/ARM-Cortex-M3/Generic/RealView --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include-DUSE_HAL_DRIVER -DSTM32F103xB -o qc_test\stm32f1xx_hal_flash_ex.o --omf_browse qc_test\stm32f1xx_hal_flash_ex.crf --depend qc_test\stm32f1xx_hal_flash_ex.d)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Core\Inc\stm32f1xx_hal_conf.h)(0x6284568F)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\core_cm3.h)(0x627C792C)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\cmsis_version.h)(0x627C792C)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\cmsis_compiler.h)(0x627C792C)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\cmsis_armcc.h)(0x627C792C)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x627C795A)
+I (C:\Keil\ARM\ARMCC\include\stddef.h)(0x51C7B744)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_i2c.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x627C795A)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c)(0x627C795A)(-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I./uC-BSP -I./uC-CONFIG -I./uC-CPU -I./uC-CPU/ARM-Cortex-M3/RealView -I./uC-LIB -I./uC-LIB/Ports/ARM-Cortex-M3/RealView -I./uCOS-III/Source -I./uCOS-III/Ports/ARM-Cortex-M3/Generic/RealView --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include-DUSE_HAL_DRIVER -DSTM32F103xB -o qc_test\stm32f1xx_hal_exti.o --omf_browse qc_test\stm32f1xx_hal_exti.crf --depend qc_test\stm32f1xx_hal_exti.d)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Core\Inc\stm32f1xx_hal_conf.h)(0x6284568F)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\core_cm3.h)(0x627C792C)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\cmsis_version.h)(0x627C792C)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\cmsis_compiler.h)(0x627C792C)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\cmsis_armcc.h)(0x627C792C)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x627C795A)
+I (C:\Keil\ARM\ARMCC\include\stddef.h)(0x51C7B744)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_i2c.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x627C795A)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rtc.c)(0x627C795A)(-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I./uC-BSP -I./uC-CONFIG -I./uC-CPU -I./uC-CPU/ARM-Cortex-M3/RealView -I./uC-LIB -I./uC-LIB/Ports/ARM-Cortex-M3/RealView -I./uCOS-III/Source -I./uCOS-III/Ports/ARM-Cortex-M3/Generic/RealView --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include-DUSE_HAL_DRIVER -DSTM32F103xB -o qc_test\stm32f1xx_hal_rtc.o --omf_browse qc_test\stm32f1xx_hal_rtc.crf --depend qc_test\stm32f1xx_hal_rtc.d)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Core\Inc\stm32f1xx_hal_conf.h)(0x6284568F)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\core_cm3.h)(0x627C792C)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\cmsis_version.h)(0x627C792C)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\cmsis_compiler.h)(0x627C792C)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\cmsis_armcc.h)(0x627C792C)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x627C795A)
+I (C:\Keil\ARM\ARMCC\include\stddef.h)(0x51C7B744)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_i2c.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x627C795A)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rtc_ex.c)(0x627C795A)(-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I./uC-BSP -I./uC-CONFIG -I./uC-CPU -I./uC-CPU/ARM-Cortex-M3/RealView -I./uC-LIB -I./uC-LIB/Ports/ARM-Cortex-M3/RealView -I./uCOS-III/Source -I./uCOS-III/Ports/ARM-Cortex-M3/Generic/RealView --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include-DUSE_HAL_DRIVER -DSTM32F103xB -o qc_test\stm32f1xx_hal_rtc_ex.o --omf_browse qc_test\stm32f1xx_hal_rtc_ex.crf --depend qc_test\stm32f1xx_hal_rtc_ex.d)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Core\Inc\stm32f1xx_hal_conf.h)(0x6284568F)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\core_cm3.h)(0x627C792C)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\cmsis_version.h)(0x627C792C)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\cmsis_compiler.h)(0x627C792C)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\cmsis_armcc.h)(0x627C792C)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x627C795A)
+I (C:\Keil\ARM\ARMCC\include\stddef.h)(0x51C7B744)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_i2c.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x627C795A)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c)(0x627C795A)(-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I./uC-BSP -I./uC-CONFIG -I./uC-CPU -I./uC-CPU/ARM-Cortex-M3/RealView -I./uC-LIB -I./uC-LIB/Ports/ARM-Cortex-M3/RealView -I./uCOS-III/Source -I./uCOS-III/Ports/ARM-Cortex-M3/Generic/RealView --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include-DUSE_HAL_DRIVER -DSTM32F103xB -o qc_test\stm32f1xx_hal_tim.o --omf_browse qc_test\stm32f1xx_hal_tim.crf --depend qc_test\stm32f1xx_hal_tim.d)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Core\Inc\stm32f1xx_hal_conf.h)(0x6284568F)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\core_cm3.h)(0x627C792C)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\cmsis_version.h)(0x627C792C)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\cmsis_compiler.h)(0x627C792C)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\cmsis_armcc.h)(0x627C792C)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x627C795A)
+I (C:\Keil\ARM\ARMCC\include\stddef.h)(0x51C7B744)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_i2c.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x627C795A)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c)(0x627C795A)(-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I./uC-BSP -I./uC-CONFIG -I./uC-CPU -I./uC-CPU/ARM-Cortex-M3/RealView -I./uC-LIB -I./uC-LIB/Ports/ARM-Cortex-M3/RealView -I./uCOS-III/Source -I./uCOS-III/Ports/ARM-Cortex-M3/Generic/RealView --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include-DUSE_HAL_DRIVER -DSTM32F103xB -o qc_test\stm32f1xx_hal_tim_ex.o --omf_browse qc_test\stm32f1xx_hal_tim_ex.crf --depend qc_test\stm32f1xx_hal_tim_ex.d)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Core\Inc\stm32f1xx_hal_conf.h)(0x6284568F)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\core_cm3.h)(0x627C792C)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\cmsis_version.h)(0x627C792C)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\cmsis_compiler.h)(0x627C792C)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\cmsis_armcc.h)(0x627C792C)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x627C795A)
+I (C:\Keil\ARM\ARMCC\include\stddef.h)(0x51C7B744)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_i2c.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x627C795A)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c)(0x627C795A)(-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I./uC-BSP -I./uC-CONFIG -I./uC-CPU -I./uC-CPU/ARM-Cortex-M3/RealView -I./uC-LIB -I./uC-LIB/Ports/ARM-Cortex-M3/RealView -I./uCOS-III/Source -I./uCOS-III/Ports/ARM-Cortex-M3/Generic/RealView --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include-DUSE_HAL_DRIVER -DSTM32F103xB -o qc_test\stm32f1xx_hal_uart.o --omf_browse qc_test\stm32f1xx_hal_uart.crf --depend qc_test\stm32f1xx_hal_uart.d)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Core\Inc\stm32f1xx_hal_conf.h)(0x6284568F)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\core_cm3.h)(0x627C792C)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\cmsis_version.h)(0x627C792C)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\cmsis_compiler.h)(0x627C792C)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\cmsis_armcc.h)(0x627C792C)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x627C795A)
+I (C:\Keil\ARM\ARMCC\include\stddef.h)(0x51C7B744)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_i2c.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x627C795A)
+F (../Core/Src/system_stm32f1xx.c)(0x627C795A)(-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I./uC-BSP -I./uC-CONFIG -I./uC-CPU -I./uC-CPU/ARM-Cortex-M3/RealView -I./uC-LIB -I./uC-LIB/Ports/ARM-Cortex-M3/RealView -I./uCOS-III/Source -I./uCOS-III/Ports/ARM-Cortex-M3/Generic/RealView --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include-DUSE_HAL_DRIVER -DSTM32F103xB -o qc_test\system_stm32f1xx.o --omf_browse qc_test\system_stm32f1xx.crf --depend qc_test\system_stm32f1xx.d)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\core_cm3.h)(0x627C792C)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\cmsis_version.h)(0x627C792C)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\cmsis_compiler.h)(0x627C792C)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\cmsis_armcc.h)(0x627C792C)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Core\Inc\stm32f1xx_hal_conf.h)(0x6284568F)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x627C795A)
+I (C:\Keil\ARM\ARMCC\include\stddef.h)(0x51C7B744)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_i2c.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x627C795A)
+F (.\uC-CPU\cpu_core.c)(0x5004B146)(-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I./uC-BSP -I./uC-CONFIG -I./uC-CPU -I./uC-CPU/ARM-Cortex-M3/RealView -I./uC-LIB -I./uC-LIB/Ports/ARM-Cortex-M3/RealView -I./uCOS-III/Source -I./uCOS-III/Ports/ARM-Cortex-M3/Generic/RealView --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include-DUSE_HAL_DRIVER -DSTM32F103xB -o qc_test\cpu_core.o --omf_browse qc_test\cpu_core.crf --depend qc_test\cpu_core.d)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CPU\cpu_core.h)(0x5068E2FC)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CPU\ARM-Cortex-M3\RealView\cpu.h)(0x5011F816)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CPU\cpu_def.h)(0x5004B158)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CONFIG\cpu_cfg.h)(0x5032F3B0)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_def.h)(0x50CEC38A)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_mem.h)(0x50CEB6E6)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CONFIG\lib_cfg.h)(0x6281AC27)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_str.h)(0x50CEB6DC)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_ascii.h)(0x50CEB6E6)
+F (.\uC-CPU\cpu_core.h)(0x5068E2FC)()
+F (.\uC-CPU\cpu_def.h)(0x5004B158)()
+F (.\uC-CPU\ARM-Cortex-M3\RealView\cpu.h)(0x5011F816)()
+F (.\uC-CPU\ARM-Cortex-M3\RealView\cpu_a.asm)(0x5011F816)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include--list cpu_a.lst --xref -o qc_test\cpu_a.o --depend qc_test\cpu_a.d)
+F (.\uC-CPU\ARM-Cortex-M3\RealView\cpu_c.c)(0x5011F816)(-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I./uC-BSP -I./uC-CONFIG -I./uC-CPU -I./uC-CPU/ARM-Cortex-M3/RealView -I./uC-LIB -I./uC-LIB/Ports/ARM-Cortex-M3/RealView -I./uCOS-III/Source -I./uCOS-III/Ports/ARM-Cortex-M3/Generic/RealView --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include-DUSE_HAL_DRIVER -DSTM32F103xB -o qc_test\cpu_c.o --omf_browse qc_test\cpu_c.crf --depend qc_test\cpu_c.d)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CPU\ARM-Cortex-M3\RealView\cpu.h)(0x5011F816)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CPU\cpu_def.h)(0x5004B158)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CONFIG\cpu_cfg.h)(0x5032F3B0)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CPU\cpu_core.h)(0x5068E2FC)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_def.h)(0x50CEC38A)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_mem.h)(0x50CEB6E6)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CONFIG\lib_cfg.h)(0x6281AC27)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_str.h)(0x50CEB6DC)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_ascii.h)(0x50CEB6E6)
+F (.\uC-LIB\lib_ascii.c)(0x50CEB6E6)(-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I./uC-BSP -I./uC-CONFIG -I./uC-CPU -I./uC-CPU/ARM-Cortex-M3/RealView -I./uC-LIB -I./uC-LIB/Ports/ARM-Cortex-M3/RealView -I./uCOS-III/Source -I./uCOS-III/Ports/ARM-Cortex-M3/Generic/RealView --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include-DUSE_HAL_DRIVER -DSTM32F103xB -o qc_test\lib_ascii.o --omf_browse qc_test\lib_ascii.crf --depend qc_test\lib_ascii.d)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_ascii.h)(0x50CEB6E6)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CPU\ARM-Cortex-M3\RealView\cpu.h)(0x5011F816)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CPU\cpu_def.h)(0x5004B158)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CONFIG\cpu_cfg.h)(0x5032F3B0)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_def.h)(0x50CEC38A)
+F (.\uC-LIB\lib_ascii.h)(0x50CEB6E6)()
+F (.\uC-LIB\lib_def.h)(0x50CEC38A)()
+F (.\uC-LIB\lib_math.c)(0x50CEB6E6)(-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I./uC-BSP -I./uC-CONFIG -I./uC-CPU -I./uC-CPU/ARM-Cortex-M3/RealView -I./uC-LIB -I./uC-LIB/Ports/ARM-Cortex-M3/RealView -I./uCOS-III/Source -I./uCOS-III/Ports/ARM-Cortex-M3/Generic/RealView --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include-DUSE_HAL_DRIVER -DSTM32F103xB -o qc_test\lib_math.o --omf_browse qc_test\lib_math.crf --depend qc_test\lib_math.d)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_math.h)(0x50CEB6E6)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CPU\ARM-Cortex-M3\RealView\cpu.h)(0x5011F816)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CPU\cpu_def.h)(0x5004B158)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CONFIG\cpu_cfg.h)(0x5032F3B0)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CPU\cpu_core.h)(0x5068E2FC)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_def.h)(0x50CEC38A)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_mem.h)(0x50CEB6E6)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CONFIG\lib_cfg.h)(0x6281AC27)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_str.h)(0x50CEB6DC)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_ascii.h)(0x50CEB6E6)
+F (.\uC-LIB\lib_math.h)(0x50CEB6E6)()
+F (.\uC-LIB\lib_mem.c)(0x50CEB6E6)(-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I./uC-BSP -I./uC-CONFIG -I./uC-CPU -I./uC-CPU/ARM-Cortex-M3/RealView -I./uC-LIB -I./uC-LIB/Ports/ARM-Cortex-M3/RealView -I./uCOS-III/Source -I./uCOS-III/Ports/ARM-Cortex-M3/Generic/RealView --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include-DUSE_HAL_DRIVER -DSTM32F103xB -o qc_test\lib_mem.o --omf_browse qc_test\lib_mem.crf --depend qc_test\lib_mem.d)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_mem.h)(0x50CEB6E6)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CPU\ARM-Cortex-M3\RealView\cpu.h)(0x5011F816)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CPU\cpu_def.h)(0x5004B158)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CONFIG\cpu_cfg.h)(0x5032F3B0)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CPU\cpu_core.h)(0x5068E2FC)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_def.h)(0x50CEC38A)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_str.h)(0x50CEB6DC)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_ascii.h)(0x50CEB6E6)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CONFIG\lib_cfg.h)(0x6281AC27)
+F (.\uC-LIB\lib_mem.h)(0x50CEB6E6)()
+F (.\uC-LIB\lib_str.c)(0x50CEB6E6)(-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I./uC-BSP -I./uC-CONFIG -I./uC-CPU -I./uC-CPU/ARM-Cortex-M3/RealView -I./uC-LIB -I./uC-LIB/Ports/ARM-Cortex-M3/RealView -I./uCOS-III/Source -I./uCOS-III/Ports/ARM-Cortex-M3/Generic/RealView --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include-DUSE_HAL_DRIVER -DSTM32F103xB -o qc_test\lib_str.o --omf_browse qc_test\lib_str.crf --depend qc_test\lib_str.d)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_str.h)(0x50CEB6DC)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CPU\ARM-Cortex-M3\RealView\cpu.h)(0x5011F816)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CPU\cpu_def.h)(0x5004B158)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CONFIG\cpu_cfg.h)(0x5032F3B0)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_def.h)(0x50CEC38A)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_ascii.h)(0x50CEB6E6)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CONFIG\lib_cfg.h)(0x6281AC27)
+F (.\uC-LIB\lib_str.h)(0x50CEB6DC)()
+F (.\uC-LIB\Ports\ARM-Cortex-M3\RealView\lib_mem_a.asm)(0x4FFE6F74)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include--list lib_mem_a.lst --xref -o qc_test\lib_mem_a.o --depend qc_test\lib_mem_a.d)
+F (.\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView\os_cpu.h)(0x4FFE6960)()
+F (.\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView\os_cpu_a.s)(0x4FFE6960)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include--list os_cpu_a.lst --xref -o qc_test\os_cpu_a.o --depend qc_test\os_cpu_a.d)
+F (.\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView\os_cpu_c.c)(0x4FFE6960)(-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I./uC-BSP -I./uC-CONFIG -I./uC-CPU -I./uC-CPU/ARM-Cortex-M3/RealView -I./uC-LIB -I./uC-LIB/Ports/ARM-Cortex-M3/RealView -I./uCOS-III/Source -I./uCOS-III/Ports/ARM-Cortex-M3/Generic/RealView --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include-DUSE_HAL_DRIVER -DSTM32F103xB -o qc_test\os_cpu_c.o --omf_browse qc_test\os_cpu_c.crf --depend qc_test\os_cpu_c.d)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uCOS-III\Source\os.h)(0x50FFA894)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CONFIG\os_cfg.h)(0x628243B2)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CPU\ARM-Cortex-M3\RealView\cpu.h)(0x5011F816)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CPU\cpu_def.h)(0x5004B158)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CONFIG\cpu_cfg.h)(0x5032F3B0)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CPU\cpu_core.h)(0x5068E2FC)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_def.h)(0x50CEC38A)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_mem.h)(0x50CEB6E6)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CONFIG\lib_cfg.h)(0x6281AC27)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_str.h)(0x50CEB6DC)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_ascii.h)(0x50CEB6E6)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uCOS-III\Source\os_type.h)(0x50FFA894)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView\os_cpu.h)(0x4FFE6960)
+F (.\uCOS-III\Source\os.h)(0x50FFA894)()
+F (.\uCOS-III\Source\os_cfg_app.c)(0x50FFA894)(-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I./uC-BSP -I./uC-CONFIG -I./uC-CPU -I./uC-CPU/ARM-Cortex-M3/RealView -I./uC-LIB -I./uC-LIB/Ports/ARM-Cortex-M3/RealView -I./uCOS-III/Source -I./uCOS-III/Ports/ARM-Cortex-M3/Generic/RealView --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include-DUSE_HAL_DRIVER -DSTM32F103xB -o qc_test\os_cfg_app.o --omf_browse qc_test\os_cfg_app.crf --depend qc_test\os_cfg_app.d)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CONFIG\os_cfg_app.h)(0x62831273)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uCOS-III\Source\os.h)(0x50FFA894)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CONFIG\os_cfg.h)(0x628243B2)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CPU\ARM-Cortex-M3\RealView\cpu.h)(0x5011F816)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CPU\cpu_def.h)(0x5004B158)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CONFIG\cpu_cfg.h)(0x5032F3B0)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CPU\cpu_core.h)(0x5068E2FC)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_def.h)(0x50CEC38A)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_mem.h)(0x50CEB6E6)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CONFIG\lib_cfg.h)(0x6281AC27)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_str.h)(0x50CEB6DC)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_ascii.h)(0x50CEB6E6)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uCOS-III\Source\os_type.h)(0x50FFA894)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView\os_cpu.h)(0x4FFE6960)
+F (.\uCOS-III\Source\os_core.c)(0x50FFA894)(-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I./uC-BSP -I./uC-CONFIG -I./uC-CPU -I./uC-CPU/ARM-Cortex-M3/RealView -I./uC-LIB -I./uC-LIB/Ports/ARM-Cortex-M3/RealView -I./uCOS-III/Source -I./uCOS-III/Ports/ARM-Cortex-M3/Generic/RealView --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include-DUSE_HAL_DRIVER -DSTM32F103xB -o qc_test\os_core.o --omf_browse qc_test\os_core.crf --depend qc_test\os_core.d)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uCOS-III\Source\os.h)(0x50FFA894)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CONFIG\os_cfg.h)(0x628243B2)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CPU\ARM-Cortex-M3\RealView\cpu.h)(0x5011F816)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CPU\cpu_def.h)(0x5004B158)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CONFIG\cpu_cfg.h)(0x5032F3B0)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CPU\cpu_core.h)(0x5068E2FC)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_def.h)(0x50CEC38A)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_mem.h)(0x50CEB6E6)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CONFIG\lib_cfg.h)(0x6281AC27)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_str.h)(0x50CEB6DC)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_ascii.h)(0x50CEB6E6)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uCOS-III\Source\os_type.h)(0x50FFA894)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView\os_cpu.h)(0x4FFE6960)
+F (.\uCOS-III\Source\os_dbg.c)(0x50FFA894)(-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I./uC-BSP -I./uC-CONFIG -I./uC-CPU -I./uC-CPU/ARM-Cortex-M3/RealView -I./uC-LIB -I./uC-LIB/Ports/ARM-Cortex-M3/RealView -I./uCOS-III/Source -I./uCOS-III/Ports/ARM-Cortex-M3/Generic/RealView --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include-DUSE_HAL_DRIVER -DSTM32F103xB -o qc_test\os_dbg.o --omf_browse qc_test\os_dbg.crf --depend qc_test\os_dbg.d)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uCOS-III\Source\os.h)(0x50FFA894)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CONFIG\os_cfg.h)(0x628243B2)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CPU\ARM-Cortex-M3\RealView\cpu.h)(0x5011F816)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CPU\cpu_def.h)(0x5004B158)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CONFIG\cpu_cfg.h)(0x5032F3B0)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CPU\cpu_core.h)(0x5068E2FC)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_def.h)(0x50CEC38A)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_mem.h)(0x50CEB6E6)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CONFIG\lib_cfg.h)(0x6281AC27)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_str.h)(0x50CEB6DC)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_ascii.h)(0x50CEB6E6)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uCOS-III\Source\os_type.h)(0x50FFA894)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView\os_cpu.h)(0x4FFE6960)
+F (.\uCOS-III\Source\os_flag.c)(0x50FFA894)(-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I./uC-BSP -I./uC-CONFIG -I./uC-CPU -I./uC-CPU/ARM-Cortex-M3/RealView -I./uC-LIB -I./uC-LIB/Ports/ARM-Cortex-M3/RealView -I./uCOS-III/Source -I./uCOS-III/Ports/ARM-Cortex-M3/Generic/RealView --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include-DUSE_HAL_DRIVER -DSTM32F103xB -o qc_test\os_flag.o --omf_browse qc_test\os_flag.crf --depend qc_test\os_flag.d)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uCOS-III\Source\os.h)(0x50FFA894)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CONFIG\os_cfg.h)(0x628243B2)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CPU\ARM-Cortex-M3\RealView\cpu.h)(0x5011F816)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CPU\cpu_def.h)(0x5004B158)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CONFIG\cpu_cfg.h)(0x5032F3B0)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CPU\cpu_core.h)(0x5068E2FC)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_def.h)(0x50CEC38A)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_mem.h)(0x50CEB6E6)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CONFIG\lib_cfg.h)(0x6281AC27)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_str.h)(0x50CEB6DC)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_ascii.h)(0x50CEB6E6)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uCOS-III\Source\os_type.h)(0x50FFA894)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView\os_cpu.h)(0x4FFE6960)
+F (.\uCOS-III\Source\os_int.c)(0x50FFA894)(-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I./uC-BSP -I./uC-CONFIG -I./uC-CPU -I./uC-CPU/ARM-Cortex-M3/RealView -I./uC-LIB -I./uC-LIB/Ports/ARM-Cortex-M3/RealView -I./uCOS-III/Source -I./uCOS-III/Ports/ARM-Cortex-M3/Generic/RealView --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include-DUSE_HAL_DRIVER -DSTM32F103xB -o qc_test\os_int.o --omf_browse qc_test\os_int.crf --depend qc_test\os_int.d)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uCOS-III\Source\os.h)(0x50FFA894)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CONFIG\os_cfg.h)(0x628243B2)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CPU\ARM-Cortex-M3\RealView\cpu.h)(0x5011F816)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CPU\cpu_def.h)(0x5004B158)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CONFIG\cpu_cfg.h)(0x5032F3B0)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CPU\cpu_core.h)(0x5068E2FC)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_def.h)(0x50CEC38A)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_mem.h)(0x50CEB6E6)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CONFIG\lib_cfg.h)(0x6281AC27)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_str.h)(0x50CEB6DC)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_ascii.h)(0x50CEB6E6)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uCOS-III\Source\os_type.h)(0x50FFA894)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView\os_cpu.h)(0x4FFE6960)
+F (.\uCOS-III\Source\os_mem.c)(0x50FFA894)(-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I./uC-BSP -I./uC-CONFIG -I./uC-CPU -I./uC-CPU/ARM-Cortex-M3/RealView -I./uC-LIB -I./uC-LIB/Ports/ARM-Cortex-M3/RealView -I./uCOS-III/Source -I./uCOS-III/Ports/ARM-Cortex-M3/Generic/RealView --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include-DUSE_HAL_DRIVER -DSTM32F103xB -o qc_test\os_mem.o --omf_browse qc_test\os_mem.crf --depend qc_test\os_mem.d)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uCOS-III\Source\os.h)(0x50FFA894)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CONFIG\os_cfg.h)(0x628243B2)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CPU\ARM-Cortex-M3\RealView\cpu.h)(0x5011F816)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CPU\cpu_def.h)(0x5004B158)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CONFIG\cpu_cfg.h)(0x5032F3B0)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CPU\cpu_core.h)(0x5068E2FC)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_def.h)(0x50CEC38A)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_mem.h)(0x50CEB6E6)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CONFIG\lib_cfg.h)(0x6281AC27)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_str.h)(0x50CEB6DC)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_ascii.h)(0x50CEB6E6)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uCOS-III\Source\os_type.h)(0x50FFA894)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView\os_cpu.h)(0x4FFE6960)
+F (.\uCOS-III\Source\os_msg.c)(0x50FFA894)(-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I./uC-BSP -I./uC-CONFIG -I./uC-CPU -I./uC-CPU/ARM-Cortex-M3/RealView -I./uC-LIB -I./uC-LIB/Ports/ARM-Cortex-M3/RealView -I./uCOS-III/Source -I./uCOS-III/Ports/ARM-Cortex-M3/Generic/RealView --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include-DUSE_HAL_DRIVER -DSTM32F103xB -o qc_test\os_msg.o --omf_browse qc_test\os_msg.crf --depend qc_test\os_msg.d)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uCOS-III\Source\os.h)(0x50FFA894)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CONFIG\os_cfg.h)(0x628243B2)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CPU\ARM-Cortex-M3\RealView\cpu.h)(0x5011F816)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CPU\cpu_def.h)(0x5004B158)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CONFIG\cpu_cfg.h)(0x5032F3B0)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CPU\cpu_core.h)(0x5068E2FC)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_def.h)(0x50CEC38A)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_mem.h)(0x50CEB6E6)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CONFIG\lib_cfg.h)(0x6281AC27)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_str.h)(0x50CEB6DC)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_ascii.h)(0x50CEB6E6)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uCOS-III\Source\os_type.h)(0x50FFA894)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView\os_cpu.h)(0x4FFE6960)
+F (.\uCOS-III\Source\os_mutex.c)(0x50FFA894)(-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I./uC-BSP -I./uC-CONFIG -I./uC-CPU -I./uC-CPU/ARM-Cortex-M3/RealView -I./uC-LIB -I./uC-LIB/Ports/ARM-Cortex-M3/RealView -I./uCOS-III/Source -I./uCOS-III/Ports/ARM-Cortex-M3/Generic/RealView --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include-DUSE_HAL_DRIVER -DSTM32F103xB -o qc_test\os_mutex.o --omf_browse qc_test\os_mutex.crf --depend qc_test\os_mutex.d)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uCOS-III\Source\os.h)(0x50FFA894)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CONFIG\os_cfg.h)(0x628243B2)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CPU\ARM-Cortex-M3\RealView\cpu.h)(0x5011F816)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CPU\cpu_def.h)(0x5004B158)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CONFIG\cpu_cfg.h)(0x5032F3B0)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CPU\cpu_core.h)(0x5068E2FC)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_def.h)(0x50CEC38A)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_mem.h)(0x50CEB6E6)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CONFIG\lib_cfg.h)(0x6281AC27)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_str.h)(0x50CEB6DC)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_ascii.h)(0x50CEB6E6)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uCOS-III\Source\os_type.h)(0x50FFA894)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView\os_cpu.h)(0x4FFE6960)
+F (.\uCOS-III\Source\os_pend_multi.c)(0x50FFA894)(-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I./uC-BSP -I./uC-CONFIG -I./uC-CPU -I./uC-CPU/ARM-Cortex-M3/RealView -I./uC-LIB -I./uC-LIB/Ports/ARM-Cortex-M3/RealView -I./uCOS-III/Source -I./uCOS-III/Ports/ARM-Cortex-M3/Generic/RealView --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include-DUSE_HAL_DRIVER -DSTM32F103xB -o qc_test\os_pend_multi.o --omf_browse qc_test\os_pend_multi.crf --depend qc_test\os_pend_multi.d)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uCOS-III\Source\os.h)(0x50FFA894)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CONFIG\os_cfg.h)(0x628243B2)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CPU\ARM-Cortex-M3\RealView\cpu.h)(0x5011F816)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CPU\cpu_def.h)(0x5004B158)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CONFIG\cpu_cfg.h)(0x5032F3B0)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CPU\cpu_core.h)(0x5068E2FC)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_def.h)(0x50CEC38A)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_mem.h)(0x50CEB6E6)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CONFIG\lib_cfg.h)(0x6281AC27)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_str.h)(0x50CEB6DC)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_ascii.h)(0x50CEB6E6)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uCOS-III\Source\os_type.h)(0x50FFA894)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView\os_cpu.h)(0x4FFE6960)
+F (.\uCOS-III\Source\os_prio.c)(0x50FFA894)(-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I./uC-BSP -I./uC-CONFIG -I./uC-CPU -I./uC-CPU/ARM-Cortex-M3/RealView -I./uC-LIB -I./uC-LIB/Ports/ARM-Cortex-M3/RealView -I./uCOS-III/Source -I./uCOS-III/Ports/ARM-Cortex-M3/Generic/RealView --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include-DUSE_HAL_DRIVER -DSTM32F103xB -o qc_test\os_prio.o --omf_browse qc_test\os_prio.crf --depend qc_test\os_prio.d)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uCOS-III\Source\os.h)(0x50FFA894)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CONFIG\os_cfg.h)(0x628243B2)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CPU\ARM-Cortex-M3\RealView\cpu.h)(0x5011F816)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CPU\cpu_def.h)(0x5004B158)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CONFIG\cpu_cfg.h)(0x5032F3B0)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CPU\cpu_core.h)(0x5068E2FC)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_def.h)(0x50CEC38A)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_mem.h)(0x50CEB6E6)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CONFIG\lib_cfg.h)(0x6281AC27)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_str.h)(0x50CEB6DC)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_ascii.h)(0x50CEB6E6)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uCOS-III\Source\os_type.h)(0x50FFA894)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView\os_cpu.h)(0x4FFE6960)
+F (.\uCOS-III\Source\os_q.c)(0x50FFA894)(-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I./uC-BSP -I./uC-CONFIG -I./uC-CPU -I./uC-CPU/ARM-Cortex-M3/RealView -I./uC-LIB -I./uC-LIB/Ports/ARM-Cortex-M3/RealView -I./uCOS-III/Source -I./uCOS-III/Ports/ARM-Cortex-M3/Generic/RealView --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include-DUSE_HAL_DRIVER -DSTM32F103xB -o qc_test\os_q.o --omf_browse qc_test\os_q.crf --depend qc_test\os_q.d)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uCOS-III\Source\os.h)(0x50FFA894)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CONFIG\os_cfg.h)(0x628243B2)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CPU\ARM-Cortex-M3\RealView\cpu.h)(0x5011F816)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CPU\cpu_def.h)(0x5004B158)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CONFIG\cpu_cfg.h)(0x5032F3B0)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CPU\cpu_core.h)(0x5068E2FC)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_def.h)(0x50CEC38A)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_mem.h)(0x50CEB6E6)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CONFIG\lib_cfg.h)(0x6281AC27)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_str.h)(0x50CEB6DC)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_ascii.h)(0x50CEB6E6)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uCOS-III\Source\os_type.h)(0x50FFA894)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView\os_cpu.h)(0x4FFE6960)
+F (.\uCOS-III\Source\os_sem.c)(0x50FFA894)(-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I./uC-BSP -I./uC-CONFIG -I./uC-CPU -I./uC-CPU/ARM-Cortex-M3/RealView -I./uC-LIB -I./uC-LIB/Ports/ARM-Cortex-M3/RealView -I./uCOS-III/Source -I./uCOS-III/Ports/ARM-Cortex-M3/Generic/RealView --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include-DUSE_HAL_DRIVER -DSTM32F103xB -o qc_test\os_sem.o --omf_browse qc_test\os_sem.crf --depend qc_test\os_sem.d)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uCOS-III\Source\os.h)(0x50FFA894)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CONFIG\os_cfg.h)(0x628243B2)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CPU\ARM-Cortex-M3\RealView\cpu.h)(0x5011F816)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CPU\cpu_def.h)(0x5004B158)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CONFIG\cpu_cfg.h)(0x5032F3B0)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CPU\cpu_core.h)(0x5068E2FC)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_def.h)(0x50CEC38A)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_mem.h)(0x50CEB6E6)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CONFIG\lib_cfg.h)(0x6281AC27)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_str.h)(0x50CEB6DC)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_ascii.h)(0x50CEB6E6)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uCOS-III\Source\os_type.h)(0x50FFA894)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView\os_cpu.h)(0x4FFE6960)
+F (.\uCOS-III\Source\os_stat.c)(0x50FFA894)(-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I./uC-BSP -I./uC-CONFIG -I./uC-CPU -I./uC-CPU/ARM-Cortex-M3/RealView -I./uC-LIB -I./uC-LIB/Ports/ARM-Cortex-M3/RealView -I./uCOS-III/Source -I./uCOS-III/Ports/ARM-Cortex-M3/Generic/RealView --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include-DUSE_HAL_DRIVER -DSTM32F103xB -o qc_test\os_stat.o --omf_browse qc_test\os_stat.crf --depend qc_test\os_stat.d)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uCOS-III\Source\os.h)(0x50FFA894)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CONFIG\os_cfg.h)(0x628243B2)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CPU\ARM-Cortex-M3\RealView\cpu.h)(0x5011F816)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CPU\cpu_def.h)(0x5004B158)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CONFIG\cpu_cfg.h)(0x5032F3B0)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CPU\cpu_core.h)(0x5068E2FC)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_def.h)(0x50CEC38A)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_mem.h)(0x50CEB6E6)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CONFIG\lib_cfg.h)(0x6281AC27)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_str.h)(0x50CEB6DC)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_ascii.h)(0x50CEB6E6)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uCOS-III\Source\os_type.h)(0x50FFA894)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView\os_cpu.h)(0x4FFE6960)
+F (.\uCOS-III\Source\os_task.c)(0x50FFA894)(-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I./uC-BSP -I./uC-CONFIG -I./uC-CPU -I./uC-CPU/ARM-Cortex-M3/RealView -I./uC-LIB -I./uC-LIB/Ports/ARM-Cortex-M3/RealView -I./uCOS-III/Source -I./uCOS-III/Ports/ARM-Cortex-M3/Generic/RealView --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include-DUSE_HAL_DRIVER -DSTM32F103xB -o qc_test\os_task.o --omf_browse qc_test\os_task.crf --depend qc_test\os_task.d)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uCOS-III\Source\os.h)(0x50FFA894)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CONFIG\os_cfg.h)(0x628243B2)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CPU\ARM-Cortex-M3\RealView\cpu.h)(0x5011F816)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CPU\cpu_def.h)(0x5004B158)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CONFIG\cpu_cfg.h)(0x5032F3B0)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CPU\cpu_core.h)(0x5068E2FC)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_def.h)(0x50CEC38A)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_mem.h)(0x50CEB6E6)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CONFIG\lib_cfg.h)(0x6281AC27)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_str.h)(0x50CEB6DC)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_ascii.h)(0x50CEB6E6)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uCOS-III\Source\os_type.h)(0x50FFA894)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView\os_cpu.h)(0x4FFE6960)
+F (.\uCOS-III\Source\os_tick.c)(0x50FFA894)(-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I./uC-BSP -I./uC-CONFIG -I./uC-CPU -I./uC-CPU/ARM-Cortex-M3/RealView -I./uC-LIB -I./uC-LIB/Ports/ARM-Cortex-M3/RealView -I./uCOS-III/Source -I./uCOS-III/Ports/ARM-Cortex-M3/Generic/RealView --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include-DUSE_HAL_DRIVER -DSTM32F103xB -o qc_test\os_tick.o --omf_browse qc_test\os_tick.crf --depend qc_test\os_tick.d)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uCOS-III\Source\os.h)(0x50FFA894)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CONFIG\os_cfg.h)(0x628243B2)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CPU\ARM-Cortex-M3\RealView\cpu.h)(0x5011F816)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CPU\cpu_def.h)(0x5004B158)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CONFIG\cpu_cfg.h)(0x5032F3B0)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CPU\cpu_core.h)(0x5068E2FC)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_def.h)(0x50CEC38A)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_mem.h)(0x50CEB6E6)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CONFIG\lib_cfg.h)(0x6281AC27)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_str.h)(0x50CEB6DC)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_ascii.h)(0x50CEB6E6)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uCOS-III\Source\os_type.h)(0x50FFA894)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView\os_cpu.h)(0x4FFE6960)
+F (.\uCOS-III\Source\os_time.c)(0x62830689)(-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I./uC-BSP -I./uC-CONFIG -I./uC-CPU -I./uC-CPU/ARM-Cortex-M3/RealView -I./uC-LIB -I./uC-LIB/Ports/ARM-Cortex-M3/RealView -I./uCOS-III/Source -I./uCOS-III/Ports/ARM-Cortex-M3/Generic/RealView --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include-DUSE_HAL_DRIVER -DSTM32F103xB -o qc_test\os_time.o --omf_browse qc_test\os_time.crf --depend qc_test\os_time.d)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uCOS-III\Source\os.h)(0x50FFA894)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CONFIG\os_cfg.h)(0x628243B2)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CPU\ARM-Cortex-M3\RealView\cpu.h)(0x5011F816)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CPU\cpu_def.h)(0x5004B158)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CONFIG\cpu_cfg.h)(0x5032F3B0)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CPU\cpu_core.h)(0x5068E2FC)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_def.h)(0x50CEC38A)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_mem.h)(0x50CEB6E6)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CONFIG\lib_cfg.h)(0x6281AC27)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_str.h)(0x50CEB6DC)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_ascii.h)(0x50CEB6E6)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uCOS-III\Source\os_type.h)(0x50FFA894)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView\os_cpu.h)(0x4FFE6960)
+F (.\uCOS-III\Source\os_tmr.c)(0x50FFA894)(-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I./uC-BSP -I./uC-CONFIG -I./uC-CPU -I./uC-CPU/ARM-Cortex-M3/RealView -I./uC-LIB -I./uC-LIB/Ports/ARM-Cortex-M3/RealView -I./uCOS-III/Source -I./uCOS-III/Ports/ARM-Cortex-M3/Generic/RealView --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include-DUSE_HAL_DRIVER -DSTM32F103xB -o qc_test\os_tmr.o --omf_browse qc_test\os_tmr.crf --depend qc_test\os_tmr.d)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uCOS-III\Source\os.h)(0x50FFA894)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CONFIG\os_cfg.h)(0x628243B2)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CPU\ARM-Cortex-M3\RealView\cpu.h)(0x5011F816)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CPU\cpu_def.h)(0x5004B158)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CONFIG\cpu_cfg.h)(0x5032F3B0)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CPU\cpu_core.h)(0x5068E2FC)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_def.h)(0x50CEC38A)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_mem.h)(0x50CEB6E6)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CONFIG\lib_cfg.h)(0x6281AC27)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_str.h)(0x50CEB6DC)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_ascii.h)(0x50CEB6E6)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uCOS-III\Source\os_type.h)(0x50FFA894)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView\os_cpu.h)(0x4FFE6960)
+F (.\uCOS-III\Source\os_type.h)(0x50FFA894)()
+F (.\uCOS-III\Source\os_var.c)(0x50FFA894)(-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I./uC-BSP -I./uC-CONFIG -I./uC-CPU -I./uC-CPU/ARM-Cortex-M3/RealView -I./uC-LIB -I./uC-LIB/Ports/ARM-Cortex-M3/RealView -I./uCOS-III/Source -I./uCOS-III/Ports/ARM-Cortex-M3/Generic/RealView --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include-DUSE_HAL_DRIVER -DSTM32F103xB -o qc_test\os_var.o --omf_browse qc_test\os_var.crf --depend qc_test\os_var.d)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uCOS-III\Source\os.h)(0x50FFA894)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CONFIG\os_cfg.h)(0x628243B2)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CPU\ARM-Cortex-M3\RealView\cpu.h)(0x5011F816)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CPU\cpu_def.h)(0x5004B158)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CONFIG\cpu_cfg.h)(0x5032F3B0)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CPU\cpu_core.h)(0x5068E2FC)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_def.h)(0x50CEC38A)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_mem.h)(0x50CEB6E6)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CONFIG\lib_cfg.h)(0x6281AC27)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_str.h)(0x50CEB6DC)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_ascii.h)(0x50CEB6E6)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uCOS-III\Source\os_type.h)(0x50FFA894)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView\os_cpu.h)(0x4FFE6960)
+F (.\uC-CONFIG\app_cfg.h)(0x6282FD5C)()
+F (.\uC-CONFIG\cpu_cfg.h)(0x5032F3B0)()
+F (.\uC-CONFIG\includes.h)(0x627CC340)()
+F (.\uC-CONFIG\lib_cfg.h)(0x6281AC27)()
+F (.\uC-CONFIG\os_app_hooks.c)(0x5032F3B0)(-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I./uC-BSP -I./uC-CONFIG -I./uC-CPU -I./uC-CPU/ARM-Cortex-M3/RealView -I./uC-LIB -I./uC-LIB/Ports/ARM-Cortex-M3/RealView -I./uCOS-III/Source -I./uCOS-III/Ports/ARM-Cortex-M3/Generic/RealView --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include-DUSE_HAL_DRIVER -DSTM32F103xB -o qc_test\os_app_hooks.o --omf_browse qc_test\os_app_hooks.crf --depend qc_test\os_app_hooks.d)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uCOS-III\Source\os.h)(0x50FFA894)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CONFIG\os_cfg.h)(0x628243B2)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CPU\ARM-Cortex-M3\RealView\cpu.h)(0x5011F816)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CPU\cpu_def.h)(0x5004B158)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CONFIG\cpu_cfg.h)(0x5032F3B0)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CPU\cpu_core.h)(0x5068E2FC)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_def.h)(0x50CEC38A)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_mem.h)(0x50CEB6E6)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CONFIG\lib_cfg.h)(0x6281AC27)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_str.h)(0x50CEB6DC)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_ascii.h)(0x50CEB6E6)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uCOS-III\Source\os_type.h)(0x50FFA894)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView\os_cpu.h)(0x4FFE6960)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CONFIG\os_app_hooks.h)(0x5032F3B0)
+F (.\uC-CONFIG\os_app_hooks.h)(0x5032F3B0)()
+F (.\uC-CONFIG\os_cfg.h)(0x628243B2)()
+F (.\uC-CONFIG\os_cfg_app.h)(0x62831273)()
+F (.\uC-BSP\bsp.c)(0x6281B586)(-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I./uC-BSP -I./uC-CONFIG -I./uC-CPU -I./uC-CPU/ARM-Cortex-M3/RealView -I./uC-LIB -I./uC-LIB/Ports/ARM-Cortex-M3/RealView -I./uCOS-III/Source -I./uCOS-III/Ports/ARM-Cortex-M3/Generic/RealView --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include-DUSE_HAL_DRIVER -DSTM32F103xB -o qc_test\bsp.o --omf_browse qc_test\bsp.crf --depend qc_test\bsp.d)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CONFIG\includes.h)(0x627CC340)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7B744)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7B744)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7B744)
+I (C:\Keil\ARM\ARMCC\include\math.h)(0x51C7B744)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CPU\ARM-Cortex-M3\RealView\cpu.h)(0x5011F816)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CPU\cpu_def.h)(0x5004B158)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CONFIG\cpu_cfg.h)(0x5032F3B0)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_def.h)(0x50CEC38A)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_ascii.h)(0x50CEB6E6)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_math.h)(0x50CEB6E6)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CPU\cpu_core.h)(0x5068E2FC)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_mem.h)(0x50CEB6E6)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CONFIG\lib_cfg.h)(0x6281AC27)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_str.h)(0x50CEB6DC)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-BSP\bsp.h)(0x627CE46E)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Core\Inc\stm32f1xx_hal_conf.h)(0x6284568F)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\core_cm3.h)(0x627C792C)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\cmsis_version.h)(0x627C792C)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\cmsis_compiler.h)(0x627C792C)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\cmsis_armcc.h)(0x627C792C)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x627C795A)
+I (C:\Keil\ARM\ARMCC\include\stddef.h)(0x51C7B744)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_i2c.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Core\Inc\gpio.h)(0x627CB1BE)
+I (C:\Users\sipalaki\Desktop\QC\Core\Inc\main.h)(0x62845690)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CONFIG\app_cfg.h)(0x6282FD5C)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uCOS-III\Source\os.h)(0x50FFA894)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CONFIG\os_cfg.h)(0x628243B2)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uCOS-III\Source\os_type.h)(0x50FFA894)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView\os_cpu.h)(0x4FFE6960)
+F (.\uC-BSP\bsp.h)(0x627CE46E)()
+F (.\uC-BSP\oled.h)(0x62822CE3)()
+F (.\uC-BSP\oled.c)(0x62823067)(-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I./uC-BSP -I./uC-CONFIG -I./uC-CPU -I./uC-CPU/ARM-Cortex-M3/RealView -I./uC-LIB -I./uC-LIB/Ports/ARM-Cortex-M3/RealView -I./uCOS-III/Source -I./uCOS-III/Ports/ARM-Cortex-M3/Generic/RealView --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include-DUSE_HAL_DRIVER -DSTM32F103xB -o qc_test\oled.o --omf_browse qc_test\oled.crf --depend qc_test\oled.d)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Core\Inc\stm32f1xx_hal_conf.h)(0x6284568F)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\core_cm3.h)(0x627C792C)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\cmsis_version.h)(0x627C792C)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\cmsis_compiler.h)(0x627C792C)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\cmsis_armcc.h)(0x627C792C)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x627C795A)
+I (C:\Keil\ARM\ARMCC\include\stddef.h)(0x51C7B744)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_i2c.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-BSP\oled.h)(0x62822CE3)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-BSP\oledfont.h)(0x62822943)
+I (C:\Users\sipalaki\Desktop\QC\Core\Inc\main.h)(0x62845690)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7B744)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uCOS-III\Source\os.h)(0x50FFA894)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CONFIG\os_cfg.h)(0x628243B2)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CPU\ARM-Cortex-M3\RealView\cpu.h)(0x5011F816)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CPU\cpu_def.h)(0x5004B158)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CONFIG\cpu_cfg.h)(0x5032F3B0)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CPU\cpu_core.h)(0x5068E2FC)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_def.h)(0x50CEC38A)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_mem.h)(0x50CEB6E6)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CONFIG\lib_cfg.h)(0x6281AC27)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_str.h)(0x50CEB6DC)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_ascii.h)(0x50CEB6E6)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uCOS-III\Source\os_type.h)(0x50FFA894)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView\os_cpu.h)(0x4FFE6960)
+F (.\uC-BSP\delay.c)(0x628451AD)(-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I./uC-BSP -I./uC-CONFIG -I./uC-CPU -I./uC-CPU/ARM-Cortex-M3/RealView -I./uC-LIB -I./uC-LIB/Ports/ARM-Cortex-M3/RealView -I./uCOS-III/Source -I./uCOS-III/Ports/ARM-Cortex-M3/Generic/RealView --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include-DUSE_HAL_DRIVER -DSTM32F103xB -o qc_test\delay.o --omf_browse qc_test\delay.crf --depend qc_test\delay.d)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-BSP\delay.h)(0x62835863)
+I (C:\Users\sipalaki\Desktop\QC\Core\Inc\main.h)(0x62845690)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Core\Inc\stm32f1xx_hal_conf.h)(0x6284568F)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\core_cm3.h)(0x627C792C)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\cmsis_version.h)(0x627C792C)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\cmsis_compiler.h)(0x627C792C)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\cmsis_armcc.h)(0x627C792C)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x627C795A)
+I (C:\Keil\ARM\ARMCC\include\stddef.h)(0x51C7B744)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_i2c.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x627C795A)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7B744)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uCOS-III\Source\os.h)(0x50FFA894)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CONFIG\os_cfg.h)(0x628243B2)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CPU\ARM-Cortex-M3\RealView\cpu.h)(0x5011F816)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CPU\cpu_def.h)(0x5004B158)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CONFIG\cpu_cfg.h)(0x5032F3B0)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CPU\cpu_core.h)(0x5068E2FC)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_def.h)(0x50CEC38A)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_mem.h)(0x50CEB6E6)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-CONFIG\lib_cfg.h)(0x6281AC27)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_str.h)(0x50CEB6DC)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-LIB\lib_ascii.h)(0x50CEB6E6)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uCOS-III\Source\os_type.h)(0x50FFA894)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView\os_cpu.h)(0x4FFE6960)
+F (.\uC-BSP\DHT11.c)(0x628454F1)(-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I./uC-BSP -I./uC-CONFIG -I./uC-CPU -I./uC-CPU/ARM-Cortex-M3/RealView -I./uC-LIB -I./uC-LIB/Ports/ARM-Cortex-M3/RealView -I./uCOS-III/Source -I./uCOS-III/Ports/ARM-Cortex-M3/Generic/RealView --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include-DUSE_HAL_DRIVER -DSTM32F103xB -o qc_test\dht11.o --omf_browse qc_test\dht11.crf --depend qc_test\dht11.d)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-BSP\DHT11.h)(0x628454ED)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Core\Inc\stm32f1xx_hal_conf.h)(0x6284568F)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\core_cm3.h)(0x627C792C)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\cmsis_version.h)(0x627C792C)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\cmsis_compiler.h)(0x627C792C)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Include\cmsis_armcc.h)(0x627C792C)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x627C795A)
+I (C:\Keil\ARM\ARMCC\include\stddef.h)(0x51C7B744)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_i2c.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc_ex.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x627C795A)
+I (C:\Users\sipalaki\Desktop\QC\MDK-ARM\uC-BSP\delay.h)(0x62835863)
+I (C:\Users\sipalaki\Desktop\QC\Core\Inc\main.h)(0x62845690)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7B744)
