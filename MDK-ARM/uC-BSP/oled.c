@@ -23,7 +23,6 @@ void WriteDat(unsigned char I2C_Data)//???
 {
 	OS_ERR err;
 	OSTimeDlyHMSM(0, 0, 0, 1000,OS_OPT_TIME_HMSM_STRICT,&err);
-	printf("delay ok\n");
 	WriteCmd(0xAE); //display off
 	WriteCmd(0x00);	//Set Memory Addressing Mode
 	WriteCmd(0x10);	//00,Horizontal Addressing Mode;01,Vertical Addressing Mode;10,Page Addressing Mode (RESET);11,Invalid
@@ -67,7 +66,6 @@ void OLED_Fill(u8 fill_Data)//????
 	u8 j,t;
 	for(t=0xb0;t<0xb8;t++)
 	{
-		printf("1");
 		WriteCmd(t);		//page0-page1
 		WriteCmd(0x10);		//low column start address
 		WriteCmd(0x00);		//high column start address

@@ -18,7 +18,6 @@ void DHT11_IO_IN (void){ //¶Ë¿Ú±äÎªÊäÈë
 }
 
 void DHT11_RST (void){ //DHT11¶Ë¿Ú¸´Î»£¬·¢³öÆðÊ¼ÐÅºÅ£¨IO·¢ËÍ£©
-	OS_ERR err;
 	DHT11_IO_OUT();
 	HAL_GPIO_WritePin(DHT11PORT,DHT11_IO,GPIO_PIN_RESET); //	
 	Delay_us(18000); //À­µÍÖÁÉÙ18ms			
@@ -27,7 +26,6 @@ void DHT11_RST (void){ //DHT11¶Ë¿Ú¸´Î»£¬·¢³öÆðÊ¼ÐÅºÅ£¨IO·¢ËÍ£©
 }
 
 uint8_t Dht11_Check(void){ //µÈ´ýDHT11»ØÓ¦£¬·µ»Ø1:Î´¼ì²âµ½DHT11£¬·µ»Ø0:³É¹¦£¨IO½ÓÊÕ£©	 
-		OS_ERR err;  
     uint8_t retry=0;
     DHT11_IO_IN();//IOµ½ÊäÈë×´Ì¬	 
     while (HAL_GPIO_ReadPin(DHT11PORT,DHT11_IO)&&retry<100){//DHT11»áÀ­µÍ40~80us
@@ -44,7 +42,6 @@ uint8_t Dht11_Check(void){ //µÈ´ýDHT11»ØÓ¦£¬·µ»Ø1:Î´¼ì²âµ½DHT11£¬·µ»Ø0:³É¹¦£¨IO½
 }
 
 uint8_t Dht11_ReadBit(void){ //´ÓDHT11¶ÁÈ¡Ò»¸öÎ» ·µ»ØÖµ£º1/0
-		OS_ERR err;
     uint8_t retry=0;
     while(HAL_GPIO_ReadPin(DHT11PORT,DHT11_IO)&&retry<100){//µÈ´ý±äÎªµÍµçÆ½
         retry++;

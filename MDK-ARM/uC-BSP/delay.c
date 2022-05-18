@@ -5,8 +5,7 @@
 #include "includes.h"			
 #endif
 
-static uint8_t  fac_us=0;						
-static uint16_t fac_ms=0;						
+static uint8_t  fac_us=0;								
 	
 	
 #if SYSTEM_SUPPORT_OS							
@@ -79,7 +78,6 @@ void SysTick_Handler(void)
 void delay_init()
 {
 	fac_us = 72;
-	fac_ms = (uint16_t)fac_us * 1000;
 }								    
 
 #if SYSTEM_SUPPORT_OS  							//?????????OS.
